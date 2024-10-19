@@ -10,7 +10,7 @@ cat <<EOL > .devcontainer/devcontainer.json
             "version": "latest"
         }
     },
-    "postStartCommand": "REPO_NAME=\$(basename \$(git rev-parse --show-toplevel)); python3 /workspaces/DDos/Ddosbot.py",
+    "postStartCommand": "python3 /workspaces/DDos/Ddosbot.py",
     "customizations": {
         "vscode": {
             "settings": {
