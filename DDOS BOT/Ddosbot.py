@@ -9,10 +9,10 @@ import time
 from threading import Timer
 
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7946784884:AAG_SuCyWmTUXF_4O-xE-pCkhn_y0um3PKI')
+bot = telebot.TeleBot('7383305588:AAFu8fhuNskATqV7EJ83N1eG1Oj3381hfv4')
 
 # Admin user IDs
-admin_id = ["6322790508"]
+admin_id = ["1674370115"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
